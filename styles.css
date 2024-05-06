@@ -1,0 +1,90 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.box1 {
+
+    position: flex;
+    width: 3800vw;
+    height: 100vh;
+    background-color: #fffdee;
+    
+
+}
+
+.box2 {
+
+    display: flex;
+    width: 100vw;
+    height: 35vh;
+    background-color: #d93027;
+
+}
+
+
+
+
+
+.image1 {
+    top: 80%;
+    right: 9%;
+    height: 90%;
+    width: 90%;
+    z-index: 3; /* Ensure image1 is on top */
+    position: fixed;
+}
+
+.image7 {
+    top: -2vh;
+    right: 85vw;
+    height: 120%;
+    width: 11%;
+    position: fixed;
+}
+
+.image8 {
+    top: 5vh;
+    right: 30vw;
+    height: 120%;
+    width: 11%;
+    position: fixed;
+}
+
+
+
+.image1:hover {
+    filter: brightness(100%) saturate(950%); /* Apply filter on hover */
+}
+
+.image7:hover {
+    filter: brightness(100%) hue-rotate(240deg); /* Apply filter on hover */
+    transform: scale(1.3);
+}
+.image8:hover {
+    filter: brightness(100%) hue-rotate(-130deg); /* Apply filter on hover */
+    transform: scale(1.3);
+
+}
+
+
+
